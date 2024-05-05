@@ -6,7 +6,7 @@ describe('Add Reservation', () => {
     cy.get('.text-uppercase').click();
     cy.url().should('include', 'http://localhost:8000/store');
   });
-
+  
   it('Test for successful reservation', () => {
     cy.visit('http://localhost:8000/store');
     // This test adds reservations items
@@ -35,7 +35,7 @@ describe('Add Reservation', () => {
       cy.contains('All').click({ force: true });
   
       cy.contains('School Uniform(Women)').click({ force: true });
-  
+   
       cy.get('label').contains('Size').next().click({ force: true }); // Click on the size dropdown
       cy.contains('S').click({ force: true }); // size options
       
@@ -47,6 +47,7 @@ describe('Add Reservation', () => {
   
       cy.get('.mx-1').should('be.visible').click({ multiple: true });
       cy.url().should('include', 'http://localhost:8000/cart');
+
   
     
       
