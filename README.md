@@ -44,7 +44,7 @@ Below is the main scripts of our system repository
 
 To start the Automating the test suites for frontend and backend of our System: 
 We need these links below to navigate frontend and backend environment.
-(http://localhost:8000/), (https://bookstore-backend-api.vercel.app/docs) or (uicbookstore.netlify.app) 
+(http://139.59.246.2/phpmyadmin/), (http://localhost:8000/), (https://bookstore-backend-api.vercel.app/docs) or (uicbookstore.netlify.app) 
 
 FOR LOCALHOST: 
 - I copy the path of the vue components or pages (cd and then COPIED PATH link)
